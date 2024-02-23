@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* START CUSTOM CSS */
+
+.headerDecoration1 {
+  border: 20px solid #ffe4a6;
+}
+
+.headerDecoration2 {
+  border: 10px solid #fff8e0;
+}
+
+.navTitleDiv h1 {
+  font-family: "Minion Regular", Georgia, serif;
+  font-weight: 100;
+}
+
+.aboutUs, .navDiv {
+  font-weight: 100;
+}
+
+.header {
+  font-family: "Minion Regular", Georgia, serif;
+  font-style: italic ;
+  text-align: center;
+}
+
+.aboutUs p {
+  margin: 30px;
+}
+
+.aboutUs p:last-of-type {
+  margin-bottom: 120px;
+}
+
+.aboutUsImg {
+  max-width: 80%;
+  margin: 30px 10vw;
+  height: auto;
+  object-fit: cover;
+}
+
+.nav, .nav > li {
+  display: inline-flex;
+  margin: 10px 20px;
+}
+
+.nav-bar-link {
+  text-decoration: none;
+  color: #39739d;
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+
+label {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-color: #39739d;
+  padding: 0.5rem;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+form input {
+  border: 1px solid #39739d;
+}
+
+form legend {
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  padding: 3px 6px;
+  background-color: #e1ecf4;
+  color: #39739d;
+}
+
+form fieldset, .resultDiv {
+  margin: 10px 40vw;
+  border: 1px solid #39739d;
+}
+
+.searchBar {
+  padding: 20px;
+}
+
+button, input[type="submit"] {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+button:hover,
+.button:focus,
+input[type="submit"]:hover {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+button:active,
+input[type="submit"]:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+input[type="submit"] {
+  margin: 10px;
+  width: 200px;
+  height: 60px;
+}
+
+input[type="radio"] {
+  float: left;
+  width: auto;
+  clear:none;
+}
+
+.result {
+  margin: 10px;
+}
+
+.error-div-display-none{
+  display: none;
+}
+
+.error-div-display{
+  display: block;
+  color:hotpink;
+}
+
+/* END CUSTOM CSS */
